@@ -3073,18 +3073,18 @@ if (document.readyState !== "loading" &&
     }
 
     slides > slide {
-      -webkit-transition: all 0.4s ease-in-out;
-      -moz-transition: all 0.4s ease-in-out;
-      -o-transition: all 0.4s ease-in-out;
-      transition: all 0.4s ease-in-out;
+      -webkit-transition: all 0.6s ease-in-out;
+      -moz-transition: all 0.6s ease-in-out;
+      -o-transition: all 0.6s ease-in-out;
+      transition: all 0.6s ease-in-out;
     }
 
     .auto-fadein {
       -webkit-transition: opacity 0.6s ease-in;
-      -webkit-transition-delay: 0.4s;
-      -moz-transition: opacity 0.6s ease-in 0.4s;
-      -o-transition: opacity 0.6s ease-in 0.4s;
-      transition: opacity 0.6s ease-in 0.4s;
+      -webkit-transition-delay: 0.6s;
+      -moz-transition: opacity 0.6s ease-in 0.6s;
+      -o-transition: opacity 0.6s ease-in 0.6s;
+      transition: opacity 0.6s ease-in 0.6s;
       opacity: 0;
     }
 
@@ -3107,6 +3107,26 @@ if (document.readyState !== "loading" &&
           </hgroup>
   </slide>
 
+<!-- The script must remain before the first slide -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<script>
+    loopSlides = function() {
+        if (slidedeck.curSlide_ == slidedeck.slides.length - 1) {
+            slidedeck.curSlide_ = 0;
+            slidedeck.updateSlides_();
+        } else {
+            slidedeck.nextSlide();
+        }
+    };
+    
+    $(document).ready(function() {
+        // call loop function every ? ms
+        window.setInterval(loopSlides, delay = 10000);
+    })
+</script>
+
 <slide class=""><hgroup><h2>Today’s Event</h2></hgroup><article  id="todays-event">
 
 <p><strong>Putting the &ldquo;You&rdquo; in the R Community</strong></p>
@@ -3126,6 +3146,7 @@ if (document.readyState !== "loading" &&
 </article></slide><slide class=""><hgroup><h2>Dallas RUG - News</h2></hgroup><article  id="dallas-rug---news">
 
 <ul>
+<li>Plannig meeting (Feb 2) minutes available on GitHub</li>
 <li>New GitHub repository</li>
 <li>New Slack channel</li>
 <li>New Code of Conduct</li>
@@ -3156,7 +3177,7 @@ if (document.readyState !== "loading" &&
 <li>ask for an invite if the link on MeetUp does not work</li>
 </ul>
 
-<p><br> LinkedIn group: <em>Dallas R Users Group</em></p>
+<p><br> LinkedIn group: <em>Dallas R Users Group</em> (not very active)</p>
 
 </article></slide><slide class=""><hgroup><h2>Dallas RUG - Code of Conduct</h2></hgroup><article  id="dallas-rug---code-of-conduct">
 

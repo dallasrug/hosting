@@ -4,8 +4,27 @@ date: "March 23, 2019"
 output:
   ioslides_presentation:
     widescreen: no
-    fig_caption: false
+    transition: slower
 ---
+
+<!-- The script must remain before the first slide -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+    loopSlides = function() {
+        if (slidedeck.curSlide_ == slidedeck.slides.length - 1) {
+            slidedeck.curSlide_ = 0;
+            slidedeck.updateSlides_();
+        } else {
+            slidedeck.nextSlide();
+        }
+    };
+    
+    $(document).ready(function() {
+        // call loop function every ? ms
+        window.setInterval(loopSlides, delay = 10000);
+    })
+</script>
+
 
 ## Today's Event
 
@@ -25,6 +44,7 @@ Thank you **University of Dallas** for hosting us and WiFi
 
 ## Dallas RUG - News
 
+- Plannig meeting (Feb 2) minutes available on GitHub
 - New GitHub repository
 - New Slack channel
 - New Code of Conduct
@@ -54,7 +74,7 @@ Slack: <https://dallasr.slack.com/>
 - ask for an invite if the link on MeetUp does not work
 
 <br>
-LinkedIn group: _Dallas R Users Group_
+LinkedIn group: _Dallas R Users Group_ (not very active)
 
 
 ## Dallas RUG - Code of Conduct
