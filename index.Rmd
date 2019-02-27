@@ -1,0 +1,125 @@
+---
+title: "Dallas R Users Group"
+date: "March 23, 2019"
+output:
+  ioslides_presentation:
+    widescreen: no
+    fig_caption: false
+---
+
+## Today's Event
+
+**Putting the "You" in the R Community**
+
+_Presenter:_ **Thomas Mock** (RStudio)
+
+_Abstract_: Overview of the various sub-communities and resources in the greater R universe, with a "field guide" to joining a community, contributing, and generally maintaining or growing your knowledge of R.
+
+_Link_: <https://link.me>
+
+<br>
+Thank you **University of Dallas** for hosting us and WiFi
+
+- **Network: UDairguest** / Password: ???
+
+
+## Dallas RUG - News
+
+- New GitHub repository
+- New Slack channel
+- New Code of Conduct
+- Call for Speakers
+- Leadership Team is looking for volunteers
+
+<br>
+_Do you have an announcement to make? A job opportunity perhaps?_
+_Please contact the Leadership Team to add it on this page._
+
+
+## Dallas RUG - Online Presence
+
+MeetUp: <https://www.meetup.com/Dallas-R-Users-Group/>  
+
+- find members and past events
+
+<br>
+GitHub: <https://github.com/dallasrug>
+
+- files, resources, summaries
+
+<br>
+Slack: <https://dallasr.slack.com/>  
+
+- help with planning / hangout
+- ask for an invite if the link on MeetUp does not work
+
+<br>
+LinkedIn group: _Dallas R Users Group_
+
+
+## Dallas RUG - Code of Conduct
+
+**TL;DR**
+
+_The Dallas R User Group is dedicated to providing a_  
+_harassment-free experience for participants at our events._
+
+<br>
+**In full**
+
+Please see: <https://github.com/dallasrug/events>
+
+<br>
+**If You Witness or Are Subject To Unacceptable Behavior**
+
+Please contact a member of the Leadership Team  
+(see MeetUp page)
+
+
+
+## Dallas RUG - Call for Speakers
+
+**If you are a student or a Data Scientist:**
+
+- present your research or project (which uses R, of course)
+- gain public speaking experience 
+- expand your portfolio
+
+<br>
+
+**Format:**
+
+- one long session: about 1 hour presentation + questions, or
+- 2-3 short sessions, about 20-30 minutes each + questions
+
+
+## Dallas RUG - Topics of Interest
+
+_(for speakers in search of a topic)_
+
+- applications at company level / challenges solved at work
+- predictive analytics 
+- R markdown
+- tidyverse, best practices, piping
+- containers, API, using Docker
+- building packages
+- hackathons
+- more at: <https://github.com/dallasrug/events>
+
+<br>
+If you learned something new about R, let's hear about it!
+
+
+## Dallas RUG - Call for Volunteers
+
+The Leadership Team and Working Groups are looking for volunteers:
+
+- help the **Hosting WG** organize an evening (weekday) meeting
+- help the **Planning WG** get speakers and organize events
+- help the **Strategy WG** make long term plans
+
+<br>
+
+- (**extra**) improve your **markdown** and **git** skills by helping 
+to migrate past event information from MeetUp to GitHub
+- (**extra**) improve your **R markdown** skills by making this tempplate better
