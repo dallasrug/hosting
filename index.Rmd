@@ -39,7 +39,7 @@ _Abstract_: Overview of the various sub-communities and resources in the greater
 <br>
 Thank you **University of Dallas** for hosting us and WiFi
 
-- **Network: UDairguest** / Open a browser and click Accept
+- **Network: UDAir-guest** / Open a browser and click Accept
 
 
 ## Dallas RUG - News
