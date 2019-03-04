@@ -34,12 +34,12 @@ _Presenter:_ **Thomas Mock** (RStudio)
 
 _Abstract_: Overview of the various sub-communities and resources in the greater R universe, with a "field guide" to joining a community, contributing, and generally maintaining or growing your knowledge of R.
 
-<https://www.meetup.com/Dallas-R-Users-Group/events/259461095/>
+_Link_: <https://link.me>
 
 <br>
 Thank you **University of Dallas** for hosting us and WiFi
 
-- **Network: UDairguest** (no password)
+- **Network: UDairguest** / Open a browser and click Accept
 
 
 ## Dallas RUG - News
@@ -142,4 +142,5 @@ The Leadership Team and Working Groups are looking for volunteers:
 
 - (**extra**) improve your **markdown** and **git** skills by helping 
 to migrate past event information from MeetUp to GitHub
-- (**extra**) improve your **R markdown** skills by making this tempplate better
+- (**extra**) improve your **R markdown** skills by making this template better
+- (**extra**) move past meetup files to Dallas RUG GitHub
