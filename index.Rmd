@@ -142,4 +142,4 @@ The Leadership Team and Working Groups are looking for volunteers:
 
 - (**extra**) improve your **markdown** and **git** skills by helping 
 to migrate past event information from MeetUp to GitHub
-- (**extra**) improve your **R markdown** skills by making this tempplate better
+- (**extra**) improve your **R markdown** skills by making this template better
