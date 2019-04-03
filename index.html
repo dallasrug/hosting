@@ -4,13 +4,12 @@
   <title>Dallas R Users Group</title>
 
   <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
   <meta name="generator" content="pandoc" />
 
 
 
-  <meta name="date" content="2019-03-23" />
+  <meta name="date" content="2019-04-20" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -251,7 +250,6 @@ background: black;
 }
 
 slides > slide {
-display: none;
 font-family: 'Open Sans', Arial, sans-serif;
 font-size: 26px;
 color: #797979;
@@ -272,17 +270,19 @@ transition: all 0.6s ease-in-out;
 }
 
 slides > slide.far-past {
-display: none;
 }
 
 slides > slide.past {
-display: block;
 opacity: 0;
 }
 
 slides > slide.current {
 display: block;
 opacity: 1;
+z-index: 1;
+}
+slides > slide:not(.current) {
+z-index: 0;
 }
 
 slides > slide.current .auto-fadein {
@@ -297,13 +297,11 @@ background-size: 100% 100%;
 }
 
 slides > slide.next {
-display: block;
 opacity: 0;
 pointer-events: none;
 }
 
 slides > slide.far-next {
-display: none;
 }
 
 slides > slide.dark {
@@ -375,8 +373,6 @@ width: 1100px;
 
 slides.layout-widescreen > slide.far-past,
 slides.layout-faux-widescreen > slide.far-past {
-display: block;
-display: none;
 -webkit-transform: translate(-2260px);
 -moz-transform: translate(-2260px);
 -ms-transform: translate(-2260px);
@@ -410,8 +406,6 @@ pointer-events: none;
 
 slides.layout-widescreen > slide.far-next,
 slides.layout-faux-widescreen > slide.far-next {
-display: block;
-display: none;
 -webkit-transform: translate(2260px);
 -moz-transform: translate(2260px);
 -ms-transform: translate(2260px);
@@ -1342,6 +1336,13 @@ opacity: 1;
 
 .overview .slide-area {
 display: none;
+}
+slides > slide {
+background: linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
+background-color: white;
+}
+slides > slide {
+opacity: 0;
 }
 @media print {
 
@@ -3087,6 +3088,10 @@ if (document.readyState !== "loading" &&
       transition: opacity 0.6s ease-in 0.6s;
       opacity: 0;
     }
+/* https://github.com/ropensci/plotly/pull/524#issuecomment-468142578 */
+slide:not(.current) .plotly.html-widget{
+  display: block;
+}
 
   </style>
 
@@ -3103,7 +3108,7 @@ if (document.readyState !== "loading" &&
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
       <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
       <p data-config-presenter><!-- populated from slide_config.json --></p>
-            <p style="margin-top: 6px; margin-left: -2px;">March 23, 2019</p>
+            <p style="margin-top: 6px; margin-left: -2px;">April 20, 2019</p>
           </hgroup>
   </slide>
 
@@ -3123,19 +3128,19 @@ if (document.readyState !== "loading" &&
     
     $(document).ready(function() {
         // call loop function every ? ms
-        window.setInterval(loopSlides, delay = 10000);
+        window.setInterval(loopSlides, delay = 20000);
     })
 </script>
 
 <slide class=""><hgroup><h2>Today’s Event</h2></hgroup><article  id="todays-event">
 
-<p><strong>Putting the &ldquo;You&rdquo; in the R Community</strong></p>
+<p><strong>Predicting putts on the PGA Tour</strong></p>
 
-<p><em>Presenter:</em> <strong>Thomas Mock</strong> (RStudio)</p>
+<p><em>Presenters:</em> <strong>Shalima Zalsha, Lei Shi, Edward Egros</strong></p>
 
-<p><em>Abstract</em>: Overview of the various sub-communities and resources in the greater R universe, with a &ldquo;field guide&rdquo; to joining a community, contributing, and generally maintaining or growing your knowledge of R.</p>
+<p><em>Abstract</em>: A study on how to best predict the probability that a putt will be converted on the PGA Tour. While other models are only based upon distance, this model looks at the golfer, the slope and several other factors to fine-tune the odds available.</p>
 
-<p><a href='https://www.meetup.com/Dallas-R-Users-Group/events/259461095/' title=''>https://www.meetup.com/Dallas-R-Users-Group/events/259461095/</a></p>
+<p><a href='https://www.meetup.com/Dallas-R-Users-Group/events/260295353/' title=''>https://www.meetup.com/Dallas-R-Users-Group/events/260295353/</a></p>
 
 <p><br> Thank you <strong>University of Dallas</strong> for hosting us and WiFi</p>
 
@@ -3146,9 +3151,9 @@ if (document.readyState !== "loading" &&
 </article></slide><slide class=""><hgroup><h2>Dallas RUG - News</h2></hgroup><article  id="dallas-rug---news">
 
 <ul>
-<li>Plannig meeting (Feb 2) minutes available on GitHub</li>
-<li>New GitHub repository</li>
-<li>New Slack channel</li>
+<li>Comprehensive R community overview, see <a href='https://www.meetup.com/Dallas-R-Users-Group/events/259461095/' title=''>March 23 event</a></li>
+<li>Planning meeting (Feb 2) minutes available on GitHub</li>
+<li>New GitHub repository and Slack channel</li>
 <li>New Code of Conduct</li>
 <li>Call for Speakers</li>
 <li>Leadership Team is looking for volunteers</li>

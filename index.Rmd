@@ -1,6 +1,6 @@
 ---
 title: "Dallas R Users Group"
-date: "March 23, 2019"
+date: "April 20, 2019"
 output:
   ioslides_presentation:
     widescreen: no
@@ -21,20 +21,20 @@ output:
     
     $(document).ready(function() {
         // call loop function every ? ms
-        window.setInterval(loopSlides, delay = 10000);
+        window.setInterval(loopSlides, delay = 20000);
     })
 </script>
 
 
 ## Today's Event
 
-**Putting the "You" in the R Community**
+**Predicting putts on the PGA Tour**
 
-_Presenter:_ **Thomas Mock** (RStudio)
+_Presenters:_ **Shalima Zalsha, Lei Shi, Edward Egros**
 
-_Abstract_: Overview of the various sub-communities and resources in the greater R universe, with a "field guide" to joining a community, contributing, and generally maintaining or growing your knowledge of R.
+_Abstract_: A study on how to best predict the probability that a putt will be converted on the PGA Tour. While other models are only based upon distance, this model looks at the golfer, the slope and several other factors to fine-tune the odds available.
 
-<https://www.meetup.com/Dallas-R-Users-Group/events/259461095/>
+<https://www.meetup.com/Dallas-R-Users-Group/events/260295353/>
 
 <br>
 Thank you **University of Dallas** for hosting us and WiFi
@@ -44,9 +44,9 @@ Thank you **University of Dallas** for hosting us and WiFi
 
 ## Dallas RUG - News
 
-- Plannig meeting (Feb 2) minutes available on GitHub
-- New GitHub repository
-- New Slack channel
+- Comprehensive R community overview, see [March 23 event](https://www.meetup.com/Dallas-R-Users-Group/events/259461095/)
+- Planning meeting (Feb 2) minutes available on GitHub
+- New GitHub repository and Slack channel
 - New Code of Conduct
 - Call for Speakers
 - Leadership Team is looking for volunteers
