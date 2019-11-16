@@ -1,6 +1,6 @@
 ---
 title: "Dallas R Users Group"
-date: "April 20, 2019"
+date: "November 16, 2019"
 output:
   ioslides_presentation:
     widescreen: no
@@ -28,13 +28,13 @@ output:
 
 ## Today's Event
 
-**Predicting putts on the PGA Tour**
+**Fundamentals of R**
 
-_Presenters:_ **Shalima Zalsha, Lei Shi, Edward Egros**
+_Presenters:_ **Larry D'Agostino**
 
-_Abstract_: A study on how to best predict the probability that a putt will be converted on the PGA Tour. While other models are only based upon distance, this model looks at the golfer, the slope and several other factors to fine-tune the odds available.
+_Abstract_: This meetup we will be discussing the fundamentals of R. This meetup is perfect for beginners and advanced users to refresh their understanding. We will discuss the basics of R and how to become a better user. You can come with a laptop to work along the examples of you like but it won't be required.
 
-<https://www.meetup.com/Dallas-R-Users-Group/events/260295353/>
+<https://www.meetup.com/Dallas-R-Users-Group/events/266229877/>
 
 <br>
 Thank you **University of Dallas** for hosting us and WiFi
