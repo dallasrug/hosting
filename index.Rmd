@@ -1,6 +1,5 @@
 ---
 title: "Dallas R Users Group"
-date: "November 16, 2019"
 output:
   ioslides_presentation:
     widescreen: no
@@ -21,22 +20,13 @@ output:
     
     $(document).ready(function() {
         // call loop function every ? ms
-        window.setInterval(loopSlides, delay = 20000);
+        window.setInterval(loopSlides, delay = 30000);
     })
 </script>
 
 
-## Today's Event
+## WiFi
 
-**Fundamentals of R**
-
-_Presenters:_ **Larry D'Agostino**
-
-_Abstract_: This meetup we will be discussing the fundamentals of R. This meetup is perfect for beginners and advanced users to refresh their understanding. We will discuss the basics of R and how to become a better user. You can come with a laptop to work along the examples of you like but it won't be required.
-
-<https://www.meetup.com/Dallas-R-Users-Group/events/266229877/>
-
-<br>
 Thank you **University of Dallas** for hosting us and WiFi
 
 - **Network: UDAir-guest** / Open a browser and click Accept
